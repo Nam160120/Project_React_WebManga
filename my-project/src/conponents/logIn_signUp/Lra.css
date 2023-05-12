@@ -1,0 +1,125 @@
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formLoginContainer {
+    background-color: rgb(243, 199, 147);
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+  }
+  
+  .formLogin {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LoginGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .LoginGroup label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .LoginGroup input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .registerButton button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  .registerButton button:hover {
+    background-color: orangered;
+  }
+  
+  .registerLink p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .registerLink a {
+    color: brown;
+    text-decoration: none;
+  }
+
+  .containerRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formRegister {
+    background-color: rgb(243, 199, 147);
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+  }
+  
+  .registerGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .registerGroup label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .formInput {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .formInput.invalid {
+    border-color: #f44336;
+  }
+  
+  .errorMessage {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .registerButton button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  .registerButton button:hover {
+    background-color:orangered;
+    
+  }

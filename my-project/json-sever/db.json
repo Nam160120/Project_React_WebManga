@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "123456789",
+      "permission": "admin",
+      "status": 1,
+      "id": ""
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "123456789",
+      "permission": "user",
+      "status": 1,
+      "id": "CJqWn1z"
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "123456789",
+      "permission": "user",
+      "status": 1,
+      "id": "gmXChlA"
+    },
+    {
+      "email": "nam@gmail.com",
+      "password": "123456789",
+      "permission": "user",
+      "status": 1,
+      "id": "9ykrL4P"
+    }
+  ],
+  "comments": [
+    {
+      "user": "test1@gmail.com",
+      "comment": "hay",
+      "mangaId": "23390",
+      "id": 4
+    },
+    {
+      "user": "admin@gmail.com",
+      "comment": "đây là admin",
+      "mangaId": "23390",
+      "id": 5
+    },
+    {
+      "user": "admin@gmail.com",
+      "comment": "ok",
+      "mangaId": "23390",
+      "id": 6
+    },
+    {
+      "user": "test2@gmail.com",
+      "comment": "test",
+      "mangaId": "23390",
+      "id": 7
+    },
+    {
+      "user": "test2@gmail.com",
+      "comment": "hay",
+      "mangaId": "2",
+      "id": 8
+    },
+    {
+      "user": "test2@gmail.com",
+      "comment": "hay",
+      "mangaId": "13",
+      "id": 9
+    },
+    {
+      "user": "test1@gmail.com",
+      "comment": "111",
+      "mangaId": "2",
+      "id": 10
+    },
+    {
+      "user": "test1@gmail.com",
+      "comment": "222",
+      "mangaId": "13",
+      "id": 11
+    },
+    {
+      "user": "nam@gmail.com",
+      "comment": "dasfasca",
+      "mangaId": "2",
+      "id": 12
+    },
+    {
+      "user": "nam@gmail.com",
+      "comment": "good",
+      "mangaId": "44347",
+      "id": 13
+    },
+    {
+      "user": "nam@gmail.com",
+      "comment": "ascasc",
+      "mangaId": "44347",
+      "id": 14
+    }
+  ]
+}

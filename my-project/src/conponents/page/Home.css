@@ -1,0 +1,331 @@
+body {
+    background-color: bisque;
+}
+
+.popular-manga {
+    width: 100%;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.popular-manga a {
+    height: 538px;
+    border-radius: 10px;
+    border: 6px solid olivedrab;
+    text-decoration: none;
+    background-color: beige;
+}
+
+.popular-manga a img {
+    width: 100%;
+    height: 460px;
+    border-radius: 5px;
+}
+
+.popular-manga p {
+    text-align: center;
+    font-size: 20px;
+    color: maroon;
+    font-weight: bold;
+}
+
+.detail {
+    display: flex;
+    padding-left: 200px;
+    background-color: burlywood;
+    width: 75%;
+    margin-left: 65px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.manga-details {
+    padding-left: 100px;
+    font-size: 22px;
+}
+
+.image img {
+    padding-top: 10px;  
+    border-radius: 5px;
+    width: 330px;
+    height: 480px;
+}
+
+.description button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+
+}
+
+.title-manga {
+    font-weight: bold;
+}
+
+.popular-manga-search {
+    width: 1519px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.popular-manga-search a {
+    height: 538px;
+    border-radius: 10px;
+    border: 6px solid brown;
+    text-decoration: none;
+    background-color: beige;
+}
+
+.popular-manga-search a img {
+    width: 100%;
+    height: 460px;
+    border-radius: 5px;
+}
+
+.popular-manga-search p {
+    text-align: center;
+    font-size: 20px;
+    color: maroon;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+}
+
+.logo {
+    text-align: center;
+    background-color: orange;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-control {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.input-control input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 500px;
+}
+
+.input-control button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.input-control button:hover {
+    background-color: #0062cc;
+}
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-btn {
+    margin: 10px;
+}
+
+.filter-btn button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn button:hover {
+    background-color: orange;
+}
+
+.popular-filter button {
+    background-color: #f44336;
+}
+
+.airing-filter button {
+    background-color: #f44336;
+}
+
+.upcoming-filter button {
+    background-color: #f44336;
+}
+
+header{
+    background-color: beige;
+}
+
+.back{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.back a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.read{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.read a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    color: purple;
+}
+
+.itemsManga{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.itemsManga img{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.test{
+    display: flex;
+    padding-left: 450px;
+
+}
+.loginSignup{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.loginSignup a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 18px;
+}
+
+.loginSignup div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .loginSignup p {
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  
+  .loginSignup a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-header a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .comments-list {
+    margin-left: 100px;
+    padding-left: 50px;
+    width: 1220px;
+  }
+  
+  .comments-list input{
+    width: 1215px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    
+  }
+
+  .comments-list button{
+    padding: 8px 12px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  .commentItem {
+    border: 2px solid brown;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .userComment {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .footer{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  
